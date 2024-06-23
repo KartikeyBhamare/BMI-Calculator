@@ -16,14 +16,12 @@ class BottomBar extends StatelessWidget {
           child: Text(
             buttonTitle,
             style: kLargeButtonTextStyle,
-
           ),
         ),
         color: kBottomContainerColour,
         width: double.infinity,
         height: kBottomContainerHeight,
         margin: EdgeInsets.only(top: 10),
-        
       ),
     );
   }
